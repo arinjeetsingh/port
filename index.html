@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Arin Jeet Singh - PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+ background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
+ font-family: 'Poppins',sans-serif;
+ 
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:rgb(2, 124, 137);
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: rgb(10, 10, 105);
+}
+
+.left{
+    font-size: 4.5rem;
+    
+}
+.right{
+    font-size: 20px;
+    font-weight: 20px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+
+}
+.firstsection div{
+    margin: 30px;
+   
+}
+.leftsection{
+   
+    font-size: 2.5rem;
+    }
+.rightsection{
+    background-color: transparent;
+    
+}
+.purple{
+    color: rgb(254, 106, 0);
+}
+#element{
+    color:  rgb(254, 106, 0);
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.me h2{
+    margin: 50px;
+   
+  
+}
+.me img{
+    margin: 50px;
+  border-radius: 50%;
+  
+  
+
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+   
+    
+}
+.secondsection h1{
+    font-weight: 100px;
+    font-size: 3rem;
+    margin: 2rem;
+    
+}
+.footer{
+
+    background-color: rgb(2, 124, 137);
+    
+    height: 240px;
+    padding: 15px;
+    
+   
+}
+.footer p{
+
+   margin-top: 2rem;
+    margin-left: 30rem;
+    font-size: 30px;
+}
+
+.firstfooter{
+font-size: 30px;
+
+}
+.secondfooter{
+   list-style: none;
+   justify-content: space-between;
+}
+
+
+.secondfooter{
+   list-style: none;
+   align-items: end;
+   margin-top: 2rem;
+   margin-left: 40rem;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+ 
+  .firstsection{
+    flex-direction: column-reverse;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .leftsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .rightsection{
+    width: 72% !important;
+  }
+}
+#tab{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+#tab td, #tab th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tab tr:hover {background-color: #c4aa00;}
+#tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1bb200;
+  color: white;}
+
+  #tab .btn{
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(160, 1, 1);
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class ="left">Arin's Portfolio</div>
+            <div class="right">
+                <ul>
+               <li> <a href="TEST.html"> Home </a></li>
+                <li><a href="#dwn">About me</a></li>
+               
+                <li><a href="https://github.com/arinjeetsingh"> My Projects  </a></li>
+                <li><a href="contact.html"> Contact me </a></li>
+                 </ul> 
+            </div>  
+                  
+        </nav>
+
+
+
+
+</header>
+    
+<main>
+    <section class="firstsection">
+<div class="leftsection">Hi, My name is <br><span class="purple">ARIN JEET SINGH</span><br>and I am a passionate<br> <span id="element"></span></div>
+<div class="rightsection"><img src="bg.png" height="300px"></div>
+    </section>
+</main>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['web developer ', 'java developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <hr><br><br>
+
+
+
+  <section class="me">
+    <div id="dwn"><h2>Hello, my name is Arin Jeet Singh and I am pursuing second year Bachelor of Technology in the department of 
+        Information Technology from Madan Mohan Malaviya University of Technology.<br><br> I am a person with a lot of enthusiasm 
+        to learn new things and I follow the motto “Live Life to the Fullest”. I mainly believe that hard work really matters 
+        in our progress.<br><br>I was born in Varanasi on 10th November 2002.<br>
+        <br>I have completed my high school from Delhi Public School in the year 2019 and intermediate from Sanskar 
+        Public School in the year 2021. <br><br>My hobbies are playing football and dancing. I have also represented 
+        my school in football in various compietitions.</h2></div>
+    </h2>
+    </h2>
+   
+<img src="ggh.jpg" height="600px" width="450px">
+
+
+
+
+</section>
+<hr>
+<br><br><br><br>
+
+
+  <section class="secondsection">
+<h1><u>INTERNSHIPS</u> </h1>
+<div class="button">
+    
+   <table id="tab"><tr>
+<th>Company Name </th>
+<th>Start date</th>
+<th>Download Offer letter</th>
+</tr>
+<tr>
+<td>BHARATINTERN</td>
+<td>10-08-23</td>
+<td><a href="bharatintern internship.pdf" target="_blank"><button class="btn">BharatIntern</button></a></td>
+</tr>
+<tr>
+<td>CODSOFT</td>
+<td>10-08-23</td>
+<td><a href="codsoft internship - Copy.pdf" target="_blank"><button class="btn">Codsoft</button></a></td>
+</tr>
+<tr>
+<TD>OCTANET</TD>
+<td>1-09-23</td>
+<td><a href="octanet intership - Copy.pdf" target="_blank"><button class="btn">Octanet</button></a></td>
+</tr>
+</div>
+
+</table>
+
+
+
+</table>
+
+  </section>
+  
+  
+  
+  <footer>
+    <div class="footer">
+
+        <p>Say hi to me on these social networks:</p>
+        <div class="secondfooter">
+            <ul>
+                <a href="https://www.instagram.com/arinjeetsingh/" target="_blank"><img src="insta.png" height="60px"></a>
+                <a href="https://www.linkedin.com/in/arin-jeet-singh-a78558257/" target="_blank"><img src="linkedin.png" height="70px"></a>
+                <a href="https://github.com/arinjeetsingh" target="_blank"><img src="github.png" height="70px"></a>
+
+
+
+            </ul>
+            
+        </div>
+
+    </div>
+    <div class="thirdfooter">&#169; Arin Jeet Singh's Portfolio : All rights reserved</div>
+
+</footer>
+</body>
+</html>
